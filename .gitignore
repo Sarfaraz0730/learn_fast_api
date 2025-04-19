@@ -1,10 +1,29 @@
-# Python-generated files
+# # Python-generated files
+# __pycache__/
+# *.py[oc]
+# build/
+# dist/
+# wheels/
+# *.egg-info
+
+# # Virtual environments
+# .venv
+
+
+# Bytecode
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
 
 # Virtual environments
-.venv
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs and cache
+*.log
+.cache/
